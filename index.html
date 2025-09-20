@@ -56,11 +56,22 @@
     </div>
 
     <!-- Post Grid -->
-    <div class="grid grid-cols-3 gap-1 mt-6">
-      <img src="images/post.png" alt="post">
+    <!-- Post Grid -->
+<div class="grid grid-cols-3 gap-1 mt-6">
+  <div class="relative group">
+    <img src="images/post.png" alt="post" class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition">
+      <div class="flex space-x-4 text-white text-lg">
+        <span>❤️</span>
+        <span>💬</span>
+      </div>
     </div>
+  </div>
+</div>
+
 
   </div>
 </body>
 </html>
+
 
