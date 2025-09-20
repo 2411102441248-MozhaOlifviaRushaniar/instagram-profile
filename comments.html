@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comments</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex justify-center p-6">
+  <div class="max-w-lg w-full bg-white p-6 rounded-lg shadow-md">
+
+    <h1 class="text-xl font-bold mb-4">💬 Comments</h1>
+
+    <!-- Form Komentar -->
+    <form class="space-y-4">
+      <div>
+        <label class="block text-sm font-medium mb-1">Your Name</label>
+        <input type="text" class="w-full border rounded p-2" placeholder="Enter your name">
+      </div>
+      <div>
+        <label class="block text-sm font-medium mb-1">Comment</label>
+        <textarea class="w-full border rounded p-2" rows="4" placeholder="Write your comment..."></textarea>
+      </div>
+      <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+        Post Comment
+      </button>
+    </form>
+
+    <!-- Placeholder daftar komentar -->
+    <div class="mt-6">
+      <h2 class="font-semibold mb-2">Recent Comments</h2>
+      <ul class="space-y-2 text-sm text-gray-700">
+        <li><strong>Mozha:</strong> Wah bagus banget postingannya! ❤️</li>
+        <li><strong>Olivia:</strong> Cantik bgt feed IG mu 😍</li>
+      </ul>
+    </div>
+
+  </div>
+</body>
+</html>
